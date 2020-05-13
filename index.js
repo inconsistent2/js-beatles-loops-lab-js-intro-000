@@ -19,11 +19,11 @@ return truefact
 
 function iLoveTheBeatles(num){
   love=[];
-  var i=15-num;
+  
   do{
     love.push(`I love the Beatles!`)
-    i=i+1
-  }   while(i<15);
+    num++
+  }   while(num<15);
   }
 return love
 }
