@@ -18,8 +18,8 @@ return truefact
 }
 
 function iLoveTheBeatles(num){
-  love=[],
-  var i=15-num
+  love=[];
+  var i=15-num;
   do{
     love.push(`"I love the Beatles!"`)
     i++
