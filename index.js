@@ -20,7 +20,7 @@ return truefact
 function iLoveTheBeatles(num){
   love=[],let i=15-num
   do{
-    love.push("I love the Beatles!")
+    love.push(`"I love the Beatles!"`)
     i++
     while(i<15)
   }
